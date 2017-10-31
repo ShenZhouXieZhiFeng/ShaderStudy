@@ -1,0 +1,6 @@
+Base path: G:/Work/Soft/Unity5.3.8/Editor/Data
+Cmd: getPlatforms
+Cmd: compileSnippet
+  error: 2 plat 4 at (37): Input signature parameter SV_POSITION (1-based Entry 0) type must be float32 and mask must be xyzw.\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=799 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=0

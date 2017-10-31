@@ -1,0 +1,6 @@
+5.3.8f2:3.3.0.2
+StandaloneWindows
+G:/Work/Soft/Unity5.3.8/Editor/Data/Managed/UnityEngine.dll
+G:/Work/Soft/Unity5.3.8/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+G:/Work/Soft/Unity5.3.8/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+G:/Work/Soft/Unity5.3.8/Editor/Data/Managed/UnityEditor.dll
