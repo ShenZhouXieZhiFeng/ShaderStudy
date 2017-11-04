@@ -1,8 +1,10 @@
 Base path: G:/Work/Soft/Unity5.3.8/Editor/Data
 Cmd: getPlatforms
 Cmd: compileSnippet
-  error: 2 plat 8 at (30): invalid output semantic 'SV_POSITION': Legal indices are in [0,0] invalid vs_4_0_level_9_1 output semantic 'SV_POSITION'\nCompiling Vertex program
-Platform defines: UNITY_NO_LINEAR_COLORSPACE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF3
-  error: 1 plat 8 at (30): semantics in type overridden by variable/function or enclosing type\nCompiling Vertex program
-Platform defines: UNITY_NO_LINEAR_COLORSPACE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF3
-  api=8 type=0 insize=799 outsize=0 kw= pd=UNITY_NO_LINEAR_COLORSPACE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF3 ok=0
+  api=1 type=0 insize=2160 outsize=964 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=9 insize=964 outsize=1543 ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2160 outsize=964 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=11 insize=964 outsize=1638 ok=1
