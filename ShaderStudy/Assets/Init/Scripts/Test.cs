@@ -2,11 +2,15 @@
 using System.Collections;
 
 public class Test : MonoBehaviour {
-
-    public Vector3 Vec;
-
-    [ContextMenu("VecT")]
-    public void VecT() {
-        Debug.Log(Vec.normalized);
+    private void Start()
+    {
+        
     }
+
+    private void Update()
+    {
+        Debug.Log("X: " + Mathf.Floor(Time.time / 4));
+        Debug.Log("Y: " + Mathf.Floor(Time.time / 16));
+    }
+
 }
