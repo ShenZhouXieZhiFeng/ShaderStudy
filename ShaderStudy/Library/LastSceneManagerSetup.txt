@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity
+- path: Assets/Init/Scenes/init.unity
   isLoaded: 1
   isActive: 1
