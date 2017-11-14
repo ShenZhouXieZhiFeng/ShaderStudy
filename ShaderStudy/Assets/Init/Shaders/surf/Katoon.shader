@@ -36,9 +36,9 @@
 			//法线光照点乘
 			half NdotL = dot(s.Normal,lightDir);
 			//将兰伯特反射的光强值通过坡度图映射成一个新的值
-			//NdotL = tex2D(_RamTex,fixed2(NdotL,0.5));
+			NdotL = tex2D(_RamTex,fixed2(NdotL,0.5));
 			//另一种方式
-			NdotL = floor(NdotL * _RamValue)/(_RamValue - 0.5);
+			//NdotL = floor(NdotL * _RamValue)/(_RamValue - 0.5);
 
 			//half NdotV = dot(s.Normal,viewDir);
 			//fixed4 rimColor = NdotV * _Color;

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Init/Scenes/02.unity
+- path: Assets/morgue scene/morgue.unity
   isLoaded: 1
   isActive: 1
